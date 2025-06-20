@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* HR Nova Design System - Paleta cálida y profesional */
+
+@layer base {
+  :root {
+    --background: 247 248 250;
+    --foreground: 51 51 51;
+    --card: 255 255 255;
+    --card-foreground: 51 51 51;
+    --popover: 255 255 255;
+    --popover-foreground: 51 51 51;
+    --primary: 147 51 234;
+    --primary-foreground: 255 255 255;
+    --secondary: 167 243 208;
+    --secondary-foreground: 6 78 59;
+    --muted: 241 245 249;
+    --muted-foreground: 100 116 139;
+    --accent: 196 181 253;
+    --accent-foreground: 91 33 182;
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 226 232 240;
+    --input: 226 232 240;
+    --ring: 147 51 234;
+    --radius: 0.75rem;
+
+    --sidebar-background: 255 255 255;
+    --sidebar-foreground: 51 51 51;
+    --sidebar-primary: 147 51 234;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 196 181 253;
+    --sidebar-accent-foreground: 91 33 182;
+    --sidebar-border: 226 232 240;
+    --sidebar-ring: 147 51 234;
+
+    --hr-purple: 147 51 234;
+    --hr-purple-light: 196 181 253;
+    --hr-mint: 167 243 208;
+    --hr-mint-dark: 6 78 59;
+    --hr-gray-light: 248 250 252;
+    --hr-gray-medium: 148 163 184;
+    --hr-warning: 245 158 11;
+    --hr-success: 34 197 94;
+  }
+
+  .dark {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+    --card: 30 41 59;
+    --card-foreground: 248 250 252;
+    --popover: 30 41 59;
+    --popover-foreground: 248 250 252;
+    --primary: 167 243 208;
+    --primary-foreground: 15 23 42;
+    --secondary: 51 65 85;
+    --secondary-foreground: 248 250 252;
+    --muted: 51 65 85;
+    --muted-foreground: 148 163 184;
+    --accent: 91 33 182;
+    --accent-foreground: 248 250 252;
+    --destructive: 220 38 38;
+    --destructive-foreground: 248 250 252;
+    --border: 51 65 85;
+    --input: 51 65 85;
+    --ring: 167 243 208;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}

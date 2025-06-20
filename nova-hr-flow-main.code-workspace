@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://ssh-remote+nova-ai/root/nova-hr-flow-main"
+		}
+	],
+	"remoteAuthority": "ssh-remote+nova-ai",
+	"settings": {}
+}

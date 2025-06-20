@@ -1,0 +1,15 @@
+# Reglas generales para todos los bots
+User-agent: *
+# No permitir el rastreo de rutas de administración o API
+Disallow: /admin/
+Disallow: /api/
+
+# Reglas específicas para Google (puedes añadir otros si quieres)
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /api/
+# Permite explícitamente la página de inicio si es pública
+Allow: /$
+
+# Especifica la ubicación de tu sitemap (crea este archivo en el futuro)
+Sitemap: https://www.tudominio.com/sitemap.xml
